@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1>Responsive Cards Carousel </h1>
+    <div class="slider owl-carousel">
+      <div class="card">
+        <div class="img"><img src="/images/pexels-ahnaf-piash-13073644.jpg" alt="" /></div>
+        <div class="content">
+          <div class="title">Mario Dussen</div>
+          <div class="sub-title">Landscape Photographer</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            tempore dolores? Obcaecati minima modi molestias officia alias
+            nostrum itaque nulla doloribus quisquam esse suscipit aliquid est
+            labore, reprehenderit fugit qui.
+          </p>
+          <div class="btn">
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"><img src="/images/unsplash-2.jpg" alt="" /></div>
+        <div class="content">
+          <div class="title">James Kayles</div>
+          <div class="sub-title">Python Developer</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            tempore dolores? Obcaecati minima modi molestias officia alias
+            nostrum itaque nulla doloribus quisquam esse suscipit aliquid est
+            labore, reprehenderit fugit qui.
+          </p>
+          <div class="btn">
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"><img src="/images/unsplash-3.jpg" alt="" /></div>
+        <div class="content">
+          <div class="title">Dazino Joseph</div>
+          <div class="sub-title">MERN Stack Developer</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            tempore dolores? Obcaecati minima modi molestias officia alias
+            nostrum itaque nulla doloribus quisquam esse suscipit aliquid est
+            labore, reprehenderit fugit qui.
+          </p>
+          <div class="btn">
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+        });
+    </script>
+  </body>
+</html>
